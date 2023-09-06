@@ -2,6 +2,8 @@
 
 namespace Dearvn\FilamentUser;
 
+use Dearvn\FilamentUser\Commands\FilamentUserCommand;
+use Dearvn\FilamentUser\Testing\TestsFilamentUser;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;
 use Filament\Support\Assets\Css;
@@ -13,8 +15,6 @@ use Livewire\Features\SupportTesting\Testable;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Dearvn\FilamentUser\Commands\FilamentUserCommand;
-use Dearvn\FilamentUser\Testing\TestsFilamentUser;
 
 class FilamentUserServiceProvider extends PackageServiceProvider
 {
